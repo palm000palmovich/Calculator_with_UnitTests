@@ -35,5 +35,4 @@ public class CalculatorService {
         if (num2 == 0){throw new IllegalArgumentException("недопустимое значение делителя!");}
         return num1 + " / " + num2 + " = " + (num1/num2);
     }
-
 }
